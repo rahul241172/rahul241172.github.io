@@ -333,6 +333,82 @@ header img{
     margin: 10px;
 }
 
+/* --------------------------------Project------------------------------------- */
+
+#projects{
+    height: auto;
+    margin-bottom: 100px;
+}
+#projects>h1{
+    text-align: center;
+    font-size: 2.5rem;
+    color: rgb(36, 36, 36);
+    margin-bottom: 50px;
+}
+
+.all-projects{
+    width: 80%;
+    margin: auto;
+}
+
+.project-card{
+    height: auto;
+    background-color: #10151a;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+.project-card>div:nth-child(1){
+    
+    width: 60%;
+    
+}
+.project-card>div:nth-child(1)>img{
+    border: 1px solid white;
+    width: 100%;
+}
+.project-card>div:nth-child(2){
+    
+    width: 40%;
+    text-align: center;
+    margin: 0px 20px;
+    width: 38%;
+    padding: 0 20px;
+}
+.project-card>div:nth-child(2)>h1,.project-card>div:nth-child(2)>p,.project-card>div:nth-child(2)>h5,.project-card>div:nth-child(2)>a{
+    margin: 15px 0;
+    font-size: 1.1rem;
+    color: white;
+}
+.project-card>div:nth-child(2)>div{
+    margin-top: 55px;
+}
+.project-card>div:nth-child(2) a{
+    padding: 8px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    color: #10151a;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.project-card>div:nth-child(2) a:hover{
+    color: #ffffff;
+    background: rgb(168, 142, 238);
+    
+}
+
+
+.project-card>div:nth-child(2)>h1{
+    font-size: 28px;
+}
+
+
+/* --------------------------------Project------------------------------------- */
 
 
 
@@ -350,7 +426,7 @@ header img{
     align-items: center;
     justify-items: center;
     border-radius: 5px;
-    background-color: rgb(41, 41, 41)
+    background-color: rgb(3, 3, 3)
 
 }
 
@@ -516,7 +592,7 @@ header img{
     
         /* border:1px solid black; */
         width:90%;
-        background-color: #4e69df;
+        background-color: #0a0b0b;
         margin:40px auto;
         display: flex;
         flex-direction: column;
@@ -557,7 +633,7 @@ header img{
         /* justify-content: center; */
         align-items: center;
         margin: 5px 10px;
-        color:#4e69df;
+        color:rgb(168, 142, 238);
     }
     .info-head>i{
         margin-right: 8px;
@@ -601,7 +677,7 @@ header img{
     .input-box>p{
         padding: 10px 15px 0px;
         font-size: 14px;
-        color: #4e69df;
+        color: rgb(168, 142, 238);
     }
     .input-box>input ,.input-box>textarea {
         background-color: #273036;
@@ -624,8 +700,8 @@ header img{
         /* margin: 15px 20px; */
         font-size: 12px;
         padding: 6px 10px;
-        background-color: #4e69df;
-        border: 2px solid #4e69df;
+        background-color: rgb(168, 142, 238);
+        border: 2px solid rgb(168, 142, 238);
         color:white;
         border-radius: 8px;
         cursor: pointer;
@@ -635,8 +711,8 @@ header img{
     .submit-btn > button:hover{
        
         background-color: white;
-        border: 2px solid #4e69df;
-        color:#4e69df;
+        border: 2px solid rgb(168, 142, 238);
+        color:rgb(168, 142, 238);
     
     }
 
@@ -826,7 +902,7 @@ header img{
     }
 
     #nav-menu a.active{
-        color: rgb(109, 131, 243);    
+        color: rgb(10, 10, 10);    
     }
 
     #nav-menu.open{
