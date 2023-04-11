@@ -20,3 +20,8 @@ menu.addEventListener('click',()=>{
         m.classList.add("m-t");
     }
 });
+
+
+function resume(){
+    window.open("https://drive.google.com/file/d/1qnZ9yxq0C0yaFpIe9Qz2ptFs-fZT5s-Y/view")
+}
